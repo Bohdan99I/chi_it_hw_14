@@ -1,0 +1,38 @@
+# Вихідні директорії та зібрані файли
+/dist
+/node_modules
+/build
+/uploads
+/coverage
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Лог-файли
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Залежності
+node_modules/
+
+# Файли, створені IDE/редакторами
+.idea/
+.vscode/
+*.swp
+
+# Кеш файли
+*.log
+.cache/
+.env
+.env.*
+
+# Локальні файли для CLI
+.nest-cli.json
+
+# Jest файли
+jest-test-results.json
+
+# Інші налаштування
+*.tsbuildinfo
